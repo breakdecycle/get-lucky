@@ -8,7 +8,6 @@ import os
 
 ENDPOINT = 'https://blockchain.info/balance'
 SLACK_WEBHOOK = os.getenv('slack_webhook')
-# 'https://hooks.slack.com/services/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'
 
 def main():
     # Initialize address generator
